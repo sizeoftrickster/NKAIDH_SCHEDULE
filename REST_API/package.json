@@ -1,0 +1,32 @@
+{
+  "name": "nkaidh_api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node build/index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.9.0",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.6.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "fastify-plugin": "^5.0.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.7",
+    "xlsx": "^0.18.5"
+  }
+}
